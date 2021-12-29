@@ -14,5 +14,5 @@ int Calculator::Multiply(int a, int b) {
 }
 
 double Calculator::Divide(int a, int b) {
-    return (a/b);
+    return ((double)a/(double)b);
 }
